@@ -14,6 +14,7 @@ A minimal GitHub Action that prints a greeting.
 - uses: your-username/my-action-repo@v1
   with:
 name: GitHub
+```
 
 ## 💬 Example output
 Copy
