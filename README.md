@@ -1,9 +1,17 @@
 # Hello Action
 
-Says hello to a name.
+A minimal GitHub Action that prints a greeting.
 
-## Usage
+## 🔧 Inputs
 
+| Input | Description         | Required |
+|-------|---------------------|----------|
+| `name` | The name to greet. | ✅ Yes   |
+
+## ✅ Example usage
+
+```yaml
 - uses: your-username/my-action-repo@v1
   with:
-    name: World
+name: GitHub
+
