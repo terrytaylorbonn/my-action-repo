@@ -15,3 +15,7 @@ A minimal GitHub Action that prints a greeting.
   with:
 name: GitHub
 
+## 💬 Example output
+Copy
+Edit
+👋 Hello, GitHub!
