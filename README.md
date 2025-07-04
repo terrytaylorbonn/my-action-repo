@@ -11,7 +11,7 @@ A minimal GitHub Action that prints a greeting.
 ## ✅ Example usage
 
 ```yaml
-- uses: your-username/my-action-repo@v1
+- uses: terrytaylorbonn/my-action-repo@v1
   with:
 name: GitHub
 ```
