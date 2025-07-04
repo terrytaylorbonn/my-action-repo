@@ -1,0 +1,11 @@
+name: Hello Action
+description: Says hello
+inputs:
+  name:
+    description: Who to greet
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - run: echo "👋 Hello, ${{ inputs.name }}!"
+      shell: bash

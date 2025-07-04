@@ -1,0 +1,13 @@
+name: Test Custom Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use local action
+        uses: ./
+        with:
+          name: Local Test
